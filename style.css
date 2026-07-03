@@ -107,7 +107,9 @@ html {
         top: 0px;
         left: 0;
         width: 100%;
-        height: 40vh;
+       height: auto;
+       max-height: 100vh;
+       overflow-y: auto;
         padding-top: 100px;
         gap: 35px;
         background-color: rgba(9, 10, 20, 0.98);
@@ -125,10 +127,9 @@ html {
         position: absolute;
         top: 20px;
         right: 25px;
-        font-size: 30px;
+        font-size: 22px;
         cursor: pointer;
         padding: 15px;
-        /* transition:display 100s ease-in-out; */
     }
 
 }
@@ -242,15 +243,15 @@ html {
     }
 
     .navbar {
-        height: 110px;
-        margin-bottom: 50px;
+        height: auto;
+        padding: 10px 15px;
     }
 
     .logo {
         text-align: left;
         margin: 0;
-
-    }
+        font-size: 18px;
+     }
 
 }
 
@@ -517,40 +518,40 @@ html {
     scroll-margin-top: 80px;
     max-width: 1100px;
     margin: 60px auto;
-    padding-top: 50px;
+    padding: 50px 20px;
+    box-sizing: border-box;
 
 }
 
 .contact-heading {
-    padding-top: 20px;
-    /* padding-bottom: 20px; */
+    line-height: 1.3;
     text-align: center;
     font-size: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .section-subtitle {
     text-align: center;
     color: #a0aec0;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 1.1rem;
+    padding: 0 10px;
 }
 
 
 .contact-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 40px;
+    justify-content:center;
+    align-items: stretch;
 }
 
 
 .contact-left {
     flex: 1;
     min-width: 300px;
-    margin-top: 40px;
-    margin-left: 50px;
+    margin: 0;
 }
 
 .contact-left h2 {
@@ -636,6 +637,7 @@ html {
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
 }
 
 .contact-right h2 {
@@ -723,12 +725,16 @@ html {
     .contact-wrapper {
         flex-direction: column;
         align-items: center;
-        gap: 40px;
+        gap: 30px;
     }
 
-    .contact-right {
-        padding: 35px;
-        margin-left: 20px;
+    .contact-right,
+    .contact-left {
+        width: 100%;
+        margin: 0;
+    }
+    .contact-right{
+        padding: 20px;
     }
 
     form {
@@ -736,7 +742,7 @@ html {
     }
 
     .contact-left h2 {
-        font-size: 30px;
+        font-size: 28px;
     }
 }
 
