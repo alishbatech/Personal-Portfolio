@@ -188,14 +188,16 @@ html {
 .cta-button {
     text-decoration: none;
     height: 40px;
-    width: 150px;
+    min-width: 180px;
+    padding: 12px 28px;
     color: white;
     background-color: #0e9ab3;
     border-radius: 30px;
-    padding: 20px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    white-space:nowrap;
+    box-sizing: border-box;
 }
 
 .cta-button:hover {
