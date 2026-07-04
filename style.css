@@ -73,6 +73,7 @@ html {
     gap: 50px;
     list-style-type: none;
     margin-right: 50px;
+    padding-right: 50px;
 
 }
 
@@ -89,7 +90,7 @@ html {
 
 .menu-btn {
     display: none;
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -127,19 +128,20 @@ html {
         position: absolute;
         top: 20px;
         right: 25px;
-        font-size: 22px;
+        font-size: 20px;
         cursor: pointer;
-        padding: 15px;
+        padding: 10px;
     }
 
 }
 
 .logo {
     height: 80px;
-    margin-left: 80px;
+   padding-left: 100px;
 }
 
 .logo img {
+    /* margin-left: 30px; */
     height: 100%;
     width: auto;
     object-fit: contain;
@@ -249,8 +251,9 @@ html {
 
     .logo {
         text-align: left;
-        margin: 0;
+        margin:0;
         font-size: 18px;
+        padding-left: 30px;
      }
 
 }
