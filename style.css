@@ -106,12 +106,12 @@ html {
         flex-direction: column;
         justify-content: flex-start;
         top: 0px;
-        left: 0;
+        left: 20px;
         width: 100%;
        height: auto;
        max-height: 100vh;
        overflow-y: auto;
-        padding-top: 100px;
+        padding-top: 40px;
         gap: 35px;
         background-color: rgba(9, 10, 20, 0.98);
         backdrop-filter: blur(10px) saturate(20%);
@@ -121,13 +121,15 @@ html {
 
     .nav-links.active {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-links.active .close-btn {
         display: block;
         position: absolute;
         top: 20px;
-        right: 25px;
+        right: 45px;
         font-size: 20px;
         cursor: pointer;
         padding: 10px;
@@ -188,8 +190,8 @@ html {
 .cta-button {
     text-decoration: none;
     height: 40px;
-    min-width: 180px;
-    padding: 12px 28px;
+    min-width: 160px;
+    padding: 9px 28px;
     color: white;
     background-color: #0e9ab3;
     border-radius: 30px;
